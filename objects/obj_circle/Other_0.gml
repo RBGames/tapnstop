@@ -1,3 +1,3 @@
 /// @description invert vertical speed
 
-vspeed *= -1;
+intVSpeed *= -1;

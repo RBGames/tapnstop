@@ -2,11 +2,11 @@
 
 // Movement
 
-if(!boolActve && mouse_check_button(mb_left)) {
-  boolActve = true;
+if(!obj_controller.boolActve && mouse_check_button_pressed(mb_left)) {
+  obj_controller.boolActve = true;
 }
 
-if(boolActve) {
+if(obj_controller.boolActve) {
 
 if(isMoving) {
   x += intHSpeed;

@@ -1,7 +1,6 @@
 /// @description Variables
 
 depth = -50;
-boolActve = false;
 
 intHSpeed = 8;
 intVSpeed = 0;

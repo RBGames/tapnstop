@@ -1,4 +1,4 @@
 /// @description Variables
 // 
 
-vspeed = 5;
+intVSpeed = 5;
