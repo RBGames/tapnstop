@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "player",
-    "path": "folders/Sprites/sprites/player.yy",
+    "path": "folders/Sprites/player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player",

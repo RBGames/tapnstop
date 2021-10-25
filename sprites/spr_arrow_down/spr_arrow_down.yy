@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "modifiers",
-    "path": "folders/Sprites/sprites/modifiers.yy",
+    "path": "folders/Sprites/modifiers.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_arrow_down",

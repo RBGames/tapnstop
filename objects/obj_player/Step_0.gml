@@ -2,6 +2,12 @@
 
 // Movement
 
+if(!boolActve && mouse_check_button(mb_left)) {
+  boolActve = true;
+}
+
+if(boolActve) {
+
 if(isMoving) {
   x += intHSpeed;
   y += intVSpeed;
@@ -38,4 +44,6 @@ if(y - intVSpeed <= 0) {
 if(y + intVSpeed >= room_height - sprite_height) {
 	intVSpeed = 0;
 	y = room_height - sprite_height;
+}
+
 }
