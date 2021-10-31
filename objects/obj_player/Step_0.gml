@@ -5,13 +5,13 @@ bolPressed = mouse_check_button_pressed(mb_left) || gamepad_button_check(0, gp_f
 bolReleased = mouse_check_button_released(mb_left) || gamepad_button_check_released(0, gp_face1);
 
 // Start Game
-if(!obj_controller.boolActve && bolPressed) {
-  obj_controller.boolActve = true;
+if(!obj_controller.boolActive && bolPressed) {
+  obj_controller.boolActive = true;
 }
 
 
 // Movement
-if(obj_controller.boolActve) {
+if(obj_controller.boolActive && !obj_controller.boolWin) {
 
 if(isMoving) {
   x += intHSpeed;
