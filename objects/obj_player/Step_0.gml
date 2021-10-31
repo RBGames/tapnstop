@@ -1,11 +1,16 @@
 /// @description Movement and collisions
 
-// Movement
+// Buttons
+bolPressed = mouse_check_button_pressed(mb_left) || gamepad_button_check(0, gp_face1);
+bolReleased = mouse_check_button_released(mb_left) || gamepad_button_check_released(0, gp_face1);
 
-if(!obj_controller.boolActve && mouse_check_button_pressed(mb_left)) {
+// Start Game
+if(!obj_controller.boolActve && bolPressed) {
   obj_controller.boolActve = true;
 }
 
+
+// Movement
 if(obj_controller.boolActve) {
 
 if(isMoving) {
@@ -17,9 +22,9 @@ if(isMoving) {
 }
 
 
-if(mouse_check_button_pressed(mb_left)) {
+if(bolPressed) {
   isMoving = false;
-} else if(mouse_check_button_released(mb_left)) {
+} else if(bolReleased) {
   isMoving = true;
 } 
 
