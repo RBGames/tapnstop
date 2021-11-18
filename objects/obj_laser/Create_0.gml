@@ -1,7 +1,8 @@
 /// @description Variables
 
-image_speed = 0;
 boolEnabled = true;
+
+image_speed = 0;
 y = 0;
 image_yscale = room_height / sprite_height;
 

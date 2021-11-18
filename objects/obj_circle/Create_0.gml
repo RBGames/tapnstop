@@ -1,4 +1,8 @@
 /// @description Variables
 // 
 
-intVSpeed = 5;
+depth = -1;
+boolBullet = false;
+intSpeed = 5;
+intDirection = 90;
+
